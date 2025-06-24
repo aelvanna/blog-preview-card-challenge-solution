@@ -10,25 +10,17 @@
 
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+  <link rel="stylesheet" href="styles.css">
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
   <section class="container">
-
     <div class="card">
-      <img src="/assets/images/illustration-article.svg" />
-      <div class="blog-tags"> Learning</div>
+      <img src="/assets/images/illustration-article.svg" class="article-img" />
+      <div class="blog-tags">
+        <p>Learning</p>
+      </div>
 
       <h2>Published 21 Dec 2023</h2>
 
@@ -39,20 +31,21 @@
 
       <div class="author">
         <div class="author-profile-img">
-          <img src="/assets/images/image-avatar.webp" />
+          <img src="/assets/images/image-avatar.webp" alt="Greg Hooper's avatar" class="profile-img" />
         </div>
-        <div>Greg Hooper</div>
+        <div class="author-name">
+          <h2>Greg Hooper</h2>
+        </div>
       </div>
-
     </div>
-
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Liza Fernandez</a>.
+    </footer>
   </section>
 
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 
 </html>
