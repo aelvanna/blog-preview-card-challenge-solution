@@ -26,6 +26,12 @@ h1 {
   line-height: 150%;
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
+
+}
+
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 h2 {
