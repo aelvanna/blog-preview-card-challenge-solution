@@ -123,6 +123,7 @@ p.card-description {
 
   .card {
     width: 90%;
+    margin-right: 0.625rem;
 
   }
 }
