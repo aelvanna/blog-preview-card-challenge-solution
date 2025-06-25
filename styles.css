@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: FigtreeExtraBold, 'Arial';
+  font-family: FigtreeExtraBold;
   src: url(/assets/fonts/static/Figtree-ExtraBold.ttf);
 }
 
@@ -23,7 +23,7 @@
 }
 
 h1 {
-  font-family: FigtreeExtraBold;
+  font-family: FigtreeExtraBold, 'Arial';
   line-height: 150%;
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
@@ -40,7 +40,7 @@ h1:focus {
 }
 
 h2 {
-  font-family: FigTreeMedium;
+  font-family: FigTreeMedium, 'Arial';
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 150%;
@@ -88,7 +88,7 @@ h2 {
   background: var(--yellow);
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
-  font-family: FigtreeExtraBold;
+  font-family: FigtreeExtraBold, 'Arial';
   font-size: 0.875rem;
   margin-bottom: 0.75rem;
 }
@@ -99,7 +99,7 @@ h2 {
 }
 
 p.card-description {
-  font-family: FigtreeMedium;
+  font-family: FigtreeMedium, 'Arial';
   font-size: 1rem;
   line-height: 150%;
   color: var(--gray-500);
