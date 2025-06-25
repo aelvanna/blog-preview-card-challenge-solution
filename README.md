@@ -35,7 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-post-preview-challenge-solution-azkvbj3-Jl
+  ](https://www.frontendmentor.io/solutions/blog-post-preview-challenge-solution-azkvbj3-Jl)
 - Live Site URL: [https://blog-preview-card-challenge-solution.netlify.app](https://blog-preview-card-challenge-solution.netlify.app)
 
 ## My process
