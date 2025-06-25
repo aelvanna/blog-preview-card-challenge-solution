@@ -12,12 +12,13 @@
 }
 
 @font-face {
-  font-family: FigtreeExtraBold;
+  font-family: FigtreeExtraBold, 'Arial';
   src: url(/assets/fonts/static/Figtree-ExtraBold.ttf);
 }
 
 @font-face {
-  font-family: FigtreeMedium;
+  font-family: FigtreeMedium,
+    'Arial';
   src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
@@ -125,8 +126,8 @@ p.card-description {
 }
 
 .profile-img {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .author-name h2 {
