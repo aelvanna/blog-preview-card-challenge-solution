@@ -34,6 +34,10 @@ h1:hover {
   cursor: pointer;
 }
 
+h1:focus {
+  color: var(--yellow);
+}
+
 h2 {
   font-family: FigTreeMedium;
   font-size: 0.875rem;
@@ -71,7 +75,7 @@ h2 {
 
 .article-img {
   border-radius: 0.625rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .blog-tags {
@@ -86,6 +90,11 @@ h2 {
   font-family: FigtreeExtraBold;
   font-size: 0.875rem;
   margin-bottom: 0.75rem;
+}
+
+.blog-tags p:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 p.card-description {
@@ -123,6 +132,11 @@ p.card-description {
 .author-name h2 {
   margin: 0;
   font-weight: bold;
+}
+
+.author-name h2:hover {
+  cursor: pointer;
+  color: var(--yellow);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 390px) {
